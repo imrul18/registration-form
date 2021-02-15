@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form target="self" method="POST"></form>
+
+            <fieldset>
+                <legend><b>Basic Information:</b></legend>
+            
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+
+                <br>
+
+                <label for="gender">Gender:  </label>
+                <input type="radio" name="gender" id="male" value="male">  
+                <label for="gender">Male </label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="gender">Female </label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="gender">Other </label>
+
+                <br>
+
+                <label for="dob">Date of Birth:  </label>
+                <input type="date" id="dob" name="dob ">
+
+                <br>
+            
+                <label for="religion">Religion:  </label>
+                <select id="religion" name="religion">
+                    <option value="muslim">Muslim</option>
+                    <option value="hindu">Hindu</option> 
+                    <option value="other">Other</option>                
+                </select>
+
+                <br>
+
+                <label for="father_name">Father Name:</label>
+                <input type="text" name="father_name" id="father_name">
+
+                <br>
+
+                <label for="mother_name">Mother Name:</label>
+                <input type="text" name="mother_name" id="mother_name">
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Contact Information:</b></legend>
+
+                <label for="present_address">Present Address:</label>
+                <input type="text" name="present_address" id="presarmanent_address">
+
+                <br>
+
+                <label for="parmanent_address">Parmanent Address:</label>
+                <input type="text" name="parmanent_address" id="parmanent_address">
+
+                <br>
+
+                <label for="phone">Mobile No:</label>
+                <input type="tel" value="+8801" id="phone" name="phone">
+                
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="imrul.afnan18@gmail.com" id="email" name="email">
+                
+                <br>
+
+                <label for="website">Website:</label>
+                <input type="url" placeholder="www.imrulafnan.com" id="website" name="website">
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Academic Information:</b></legend>
+
+                <label for="ssc_year">SSC year:</label>
+                <input type="number" placeholder= "2017" name="ssc_year" id="ssc_year">
+
+                <label for="ssc_institute">SSC Institute:</label>
+                <input type="text" name="ssc_institute" id="ssc_institute">
+
+                <br>
+
+                <label for="hsc_year">HSC year:</label>
+                <input type="number" placeholder= "2019" name="hsc_year" id="hsc_year">
+
+                <label for="ssc_institute">HSC Institute:</label>
+                <input type="text" name="hsc_institute" id="hsc_institute">
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </body>
+</html>
